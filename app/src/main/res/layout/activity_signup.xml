@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:layout_below="@+id/editText_username"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:layout_below="@+id/editText_email"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/button_create_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:padding="16dp"
+        android:layout_below="@+id/editText_password"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

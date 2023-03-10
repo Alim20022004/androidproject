@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity">
+
+    <Button
+        android:id="@+id/button_get_started"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:elevation="4dp"
+        android:text="Get started"
+        android:background="@drawable/sahpe0"
+        app:backgroundTint="#EFBA82"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+         />
+
+    <Button
+        android:id="@+id/Already_Have_An_Account"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:elevation="4dp"
+        android:text="Already Have An Account"
+        android:background="@drawable/sahpe0"
+        app:backgroundTint="#EFBA82"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button_get_started"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_get_started"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="178dp"
+        android:layout_height="264dp"
+        app:srcCompat="@drawable/food_delivery"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.40"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
